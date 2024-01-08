@@ -1,0 +1,20 @@
+<nav class="navbar" routerLink="/">
+  <div class="navbar-left">
+    <img src="https://www.selina.com/assets/selina_logo_black-c7ae11ac.svg" alt="Selina Logo">
+  </div>
+  <div class="navbar-right">
+    <ul class="top-level-menu">
+      <li>
+          <a >Locations</a>
+          <ul class="second-level-menu">
+              <li *ngFor="let country of selinaCountries"><a >{{country.countryName}}</a>
+                <ul class="third-level-menu">
+                  <li *ngFor ="let location of country.locations" (click)="goToLocationPage(location)"><a >{{location.name}}</a></li>
+              </ul>
+              </li>
+          </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+

@@ -1,0 +1,63 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.product-details-left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-details-right img {
+  max-width: 20%;
+  height: auto;
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 4px; /* Optional border-radius */
+}
+
+.similar-products {
+  margin-top: 40px;
+}
+
+.similar-product {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.similar-product img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 4px; /* Optional border-radius */
+}
+
+.product-details-left .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product-details-left .description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666; /* Adjust the color as needed */
+  margin-bottom: 20px;
+}
+
+
+/* Additional styling can be added based on specific design requirements */

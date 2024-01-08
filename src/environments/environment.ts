@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  getLocationApi:"https://gw.selinatech.com/locations/api/locations?content=true",
+  getLocationEventsApi:"https://gw.selinatech.com/otevents/events/client",
 };
 
 /*

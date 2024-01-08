@@ -1,0 +1,9 @@
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <!-- Random locations linking to location page -->
+    <div *ngFor="let randomLocation of shuffledLocations" (click)="goToLocationPage(randomLocation)" >
+      {{randomLocation.name}}
+    </div>
+  </div>
+</footer>

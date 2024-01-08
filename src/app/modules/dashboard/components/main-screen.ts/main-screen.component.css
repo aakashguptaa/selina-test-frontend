@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.fit-image {
+  max-width: 100%; /* Set the maximum width of the image */
+  max-height: 600px; /* Set the maximum height of the image */
+  width: auto; /* Allow the image to adjust its width */
+  height: auto; /* Allow the image to adjust its height */
+  display: block; /* Ensure the image is a block-level element */
+  margin: 0 auto; /* Center the image horizontally within the container */
+}
